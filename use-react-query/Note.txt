@@ -1,0 +1,15 @@
+📌useMutetion: mutation object upor kicu method ace je-gulo call kre ami data parse korte pari.
+
+
+📌React Query : Onek Smart, Jkn Amra kno tab morde roi, Tkn by default Chase morder thaka data sarfe kre. jodi Amra chai case hte data sarfe kre sobsomai call kore fetch koruk query label sei sokol peramiter amra dite pari. jkn amra kno tab hte onno tab jai jkn ai tab fire asbo tkn se auto server data sate sink kre amader client site je chase ace setake update kore dei.
+
+📌refetchOnWendowFocus: Baire tab kre jkn ami Abar Window te fire asbo, By default true thakar jonno abar data fetch kre stale data.
+
+📌onSuccess : je Succes hle ki korete cai, case kno value ke invelid kora mane jodi stale thake stale hte remeve kre deoya new data ke wellcome kora.
+👉Call Back hisabe koiakta jinis dei seta hlo current data dei, variable: ami ja ja parse korci data take create korar jonno, context: extra data jeta ami mutation function execute hobar age ami kicu jinis context parse korte pari. 👉onMutate: method call hoi mutation suru hobar age: je skl variable gulo ami parse kori post call jonno,ami kicu chai seta pataite pari success objecte, amr kace jodi preconfigaration jodi mutation age korte hoi onmutate hte return korte pari.
+
+📌Menually chase korte chaile:  queryClient.setQueriseData(["random], {value: "etc"}) but amn hte pare je ami akta product add korlam sei product ta add korar pore kno akta value nia seta ke chase korte chai.
+
+📌useQueries: Multiple asyncronise call aksate korte hoi ta hle amra promise api use kori.kintu useQueries dia shoje korte pari.Multiple chase and multiplle call korte pari akbare.
+
+📌React query: Client and server state syncronise help kre chasing help kre.
