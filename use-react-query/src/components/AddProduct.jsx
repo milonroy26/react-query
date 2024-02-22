@@ -1,8 +1,12 @@
+/* eslint-disable react/prop-types */
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
 import { useState } from "react";
 
-const AddProduct = () => {
+const AddProduct = ({ editProduct }) => {
+
+    const product = editProduct;
+    console.log(product)
 
     // query client
     const queryClient = useQueryClient();

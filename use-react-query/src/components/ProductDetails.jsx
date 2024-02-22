@@ -8,7 +8,6 @@ const retrieveProduct = async ({ queryKey }) => {
 }
 
 const ProductDetails = ({ id }) => {
-
   const { data: product, error, isLoading } = useQuery({
     queryKey: ["products", id],
     queryFn: retrieveProduct,
@@ -19,7 +18,8 @@ const ProductDetails = ({ id }) => {
 
   return (
     <div className='w-1/5'>
-      <h1 className="text-3xl my-2">Product Details</h1>
+      <h2 className="text-[40px] font-semibold text-green-500 my-2">Product Details</h2>
+
       <div className='border bg-gray-100 p-1 text-md rounded flex flex-col'>
         <img
           src={product.thumbnail}
